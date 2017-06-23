@@ -21,7 +21,7 @@ pub mod led;
 //pub mod pwm;
 //pub mod qei;
 pub mod serial;
-//pub mod spi;
+pub mod spi;
 pub mod time;
 pub mod timer;
 
@@ -29,7 +29,7 @@ pub mod timer;
 //pub use pwm::Pwm;
 //pub use qei::Qei;
 pub use serial::Serial;
-//pub use spi::Spi;
+pub use spi::Spi;
 pub use timer::{Channel, Timer};
 
 macro_rules! frequency {
